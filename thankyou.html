@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cảm Ơn Bạn Đã Đặt Hàng - Kaizen Titan</title>
+  <meta name="robots" content="noindex, nofollow">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Background Noise Effect -->
+  <div class="noise"></div>
+
+  <!-- Thank You Hero Section -->
+  <section class="thankyou-hero" id="thankyou-hero-section">
+    <!-- Confetti canvas for particles -->
+    <canvas id="confetti-canvas"></canvas>
+
+    <div class="thankyou-box" id="thankyou-container">
+      <!-- Checked Icon wrapper -->
+      <div class="success-icon-wrapper" id="success-tick">
+        <svg viewBox="0 0 24 24">
+          <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/>
+        </svg>
+      </div>
+
+      <h1 id="thankyou-title">ĐẶT HÀNG THÀNH CÔNG!</h1>
+      <p class="subtitle" id="thankyou-subtitle">Cảm ơn bạn đã lựa chọn chảo chống dính Kaizen Titan Nhật Bản. Đơn hàng của bạn đang được xử lý nhanh chóng.</p>
+
+      <!-- Order Summary details -->
+      <div class="order-summary-box" id="summary-box">
+        <h3>Thông Tin Đơn Hàng</h3>
+        
+        <div class="summary-row">
+          <span class="summary-label">Mã đơn hàng:</span>
+          <span class="summary-value highlight" id="summary-code">KZT-XXXXX</span>
+        </div>
+
+        <div class="summary-row">
+          <span class="summary-label">Khách hàng:</span>
+          <span class="summary-value" id="summary-name">Nguyen Van A</span>
+        </div>
+
+        <div class="summary-row">
+          <span class="summary-label">Số điện thoại:</span>
+          <span class="summary-value" id="summary-phone">0987654321</span>
+        </div>
+
+        <div class="summary-row">
+          <span class="summary-label">Địa chỉ nhận hàng:</span>
+          <span class="summary-value" id="summary-address">Hà Nội</span>
+        </div>
+
+        <div class="summary-row">
+          <span class="summary-label">Gói sản phẩm:</span>
+          <span class="summary-value" id="summary-package">Gói Combo</span>
+        </div>
+
+        <div class="summary-row">
+          <span class="summary-label">Tổng thanh toán:</span>
+          <span class="summary-value highlight" id="summary-price">649.000đ</span>
+        </div>
+
+        <div class="summary-row">
+          <span class="summary-label">Ghi chú:</span>
+          <span class="summary-value" id="summary-note">Không có</span>
+        </div>
+      </div>
+
+      <div class="hero-buttons" style="justify-content: center;">
+        <a href="index.html" class="btn-primary" id="btn-back-home" style="animation: none;">Quay Lại Trang Chủ</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container footer-content">
+      <div class="logo">KAIZEN<span>TITAN</span></div>
+      <p class="copyright">© 2026 Kaizen Titan Nhật Bản. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="thankyou.js"></script>
+</body>
+</html>
